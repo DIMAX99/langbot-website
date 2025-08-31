@@ -1,0 +1,69 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="authBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#authBg)"/>
+  
+  <!-- Login Form -->
+  <rect x="100" y="50" width="280" height="400" rx="16" fill="rgba(255,255,255,0.95)"/>
+  <text x="240" y="90" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1f2937" text-anchor="middle">Welcome Back</text>
+  <text x="240" y="110" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Sign in to your account</text>
+  
+  <!-- Email Field -->
+  <text x="120" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">Email</text>
+  <rect x="120" y="155" width="240" height="40" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+  <text x="130" y="178" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">john@example.com</text>
+  
+  <!-- Password Field -->
+  <text x="120" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">Password</text>
+  <rect x="120" y="225" width="240" height="40" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+  <text x="130" y="248" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">••••••••</text>
+  
+  <!-- Login Button -->
+  <rect x="120" y="290" width="240" height="45" rx="6" fill="#6366f1"/>
+  <text x="240" y="318" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Sign In</text>
+  
+  <!-- Forgot Password -->
+  <text x="240" y="355" font-family="Arial, sans-serif" font-size="12" fill="#6366f1" text-anchor="middle">Forgot your password?</text>
+  
+  <!-- Switch to Signup -->
+  <text x="240" y="390" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Don't have an account?</text>
+  <text x="240" y="410" font-family="Arial, sans-serif" font-size="12" fill="#6366f1" text-anchor="middle" font-weight="bold">Sign up here</text>
+  
+  <!-- Signup Form -->
+  <rect x="420" y="50" width="280" height="400" rx="16" fill="rgba(255,255,255,0.95)"/>
+  <text x="560" y="90" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1f2937" text-anchor="middle">Join LangBot</text>
+  <text x="560" y="110" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Start your language journey</text>
+  
+  <!-- Name Field -->
+  <text x="440" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">Full Name</text>
+  <rect x="440" y="145" width="240" height="35" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+  <text x="450" y="165" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">John Doe</text>
+  
+  <!-- Email Field -->
+  <text x="440" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">Email</text>
+  <rect x="440" y="200" width="240" height="35" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+  <text x="450" y="220" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">john@example.com</text>
+  
+  <!-- Password Field -->
+  <text x="440" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">Password</text>
+  <rect x="440" y="255" width="240" height="35" rx="6" fill="white" stroke="#d1d5db" stroke-width="1"/>
+  <text x="450" y="275" font-family="Arial, sans-serif" font-size="14" fill="#9ca3af">••••••••</text>
+  
+  <!-- Signup Button -->
+  <rect x="440" y="300" width="240" height="40" rx="6" fill="#10b981"/>
+  <text x="560" y="325" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Create Account</text>
+  
+  <!-- Terms -->
+  <text x="560" y="365" font-family="Arial, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">By signing up, you agree to our</text>
+  <text x="560" y="380" font-family="Arial, sans-serif" font-size="11" fill="#6366f1" text-anchor="middle">Terms of Service and Privacy Policy</text>
+  
+  <!-- Switch to Login -->
+  <text x="560" y="410" font-family="Arial, sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Already have an account?</text>
+  <text x="560" y="430" font-family="Arial, sans-serif" font-size="12" fill="#6366f1" text-anchor="middle" font-weight="bold">Sign in here</text>
+</svg>

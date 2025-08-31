@@ -1,0 +1,58 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#cardBg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1f2937" text-anchor="middle">Choose Your Language</text>
+  
+  <!-- Language Cards Row 1 -->
+  <!-- English -->
+  <rect x="50" y="100" width="200" height="120" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="150" y="130" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">🇺🇸</text>
+  <text x="150" y="155" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">English</text>
+  <text x="150" y="175" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Master the global language</text>
+  <text x="150" y="195" font-family="Arial, sans-serif" font-size="12" fill="#10b981" text-anchor="middle">500M+ native speakers</text>
+  
+  <!-- Spanish -->
+  <rect x="300" y="100" width="200" height="120" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">🇪🇸</text>
+  <text x="400" y="155" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">Spanish</text>
+  <text x="400" y="175" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Speak with 500M+ people</text>
+  <text x="400" y="195" font-family="Arial, sans-serif" font-size="12" fill="#ef4444" text-anchor="middle">2nd most spoken</text>
+  
+  <!-- French -->
+  <rect x="550" y="100" width="200" height="120" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="650" y="130" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">🇫🇷</text>
+  <text x="650" y="155" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">French</text>
+  <text x="650" y="175" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">The language of romance</text>
+  <text x="650" y="195" font-family="Arial, sans-serif" font-size="12" fill="#8b5cf6" text-anchor="middle">Elegant & sophisticated</text>
+  
+  <!-- Language Cards Row 2 -->
+  <!-- German -->
+  <rect x="50" y="250" width="200" height="120" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="150" y="280" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">🇩🇪</text>
+  <text x="150" y="305" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">German</text>
+  <text x="150" y="325" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Power of precision</text>
+  <text x="150" y="345" font-family="Arial, sans-serif" font-size="12" fill="#f59e0b" text-anchor="middle">Business language</text>
+  
+  <!-- Japanese -->
+  <rect x="300" y="250" width="200" height="120" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">🇯🇵</text>
+  <text x="400" y="305" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">Japanese</text>
+  <text x="400" y="325" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Gateway to the East</text>
+  <text x="400" y="345" font-family="Arial, sans-serif" font-size="12" fill="#ec4899" text-anchor="middle">Technology & culture</text>
+  
+  <!-- Italian -->
+  <rect x="550" y="250" width="200" height="120" rx="12" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="650" y="280" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">🇮🇹</text>
+  <text x="650" y="305" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1f2937" text-anchor="middle">Italian</text>
+  <text x="650" y="325" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Art and culture language</text>
+  <text x="650" y="345" font-family="Arial, sans-serif" font-size="12" fill="#10b981" text-anchor="middle">Renaissance heritage</text>
+</svg>
