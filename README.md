@@ -7,28 +7,6 @@
 
 > **Master any language with AI-powered personalized tutoring. Interactive lessons, real-time feedback, and adaptive learning.**
 
-## 📸 Screenshots
-
-<div align="center">
-
-### 🏠 Landing Page with 3D Avatar
-![Landing Page](public/images/demo/landing-page.svg)
-*Interactive homepage with language selection and 3D avatar that follows your cursor*
-
-### 💬 AI Chat Interface
-![Chat Interface](public/images/demo/chat-interface.svg)
-*Real-time conversation with AI tutor, voice controls, and instant feedback*
-
-### 🎯 Language Selection
-![Language Selection](public/images/demo/language-cards.svg)
-*Choose from 6 supported languages with beautiful card-based interface*
-
-### 🔐 User Authentication
-![Authentication](public/images/demo/login-signup.svg)
-*Secure login/signup system with conversation history persistence*
-
-</div>
-
 ## ✨ Features
 
 ### 🎯 **Core Learning Features**
