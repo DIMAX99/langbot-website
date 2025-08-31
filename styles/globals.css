@@ -1,0 +1,154 @@
+/* Aggressive CSS reset to remove all white borders */
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  box-sizing: border-box !important;
+}
+
+/* Root element styling */
+#__next {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  background: #0a0a0a !important;
+}
+
+:root {
+  /* Dark Theme Color Palette */
+  --primary-bg: #0a0a0a;
+  --secondary-bg: #141414;
+  --tertiary-bg: #1f1f1f;
+  --accent-primary: #6366f1;
+  --accent-secondary: #8b5cf6;
+  --accent-tertiary: #06b6d4;
+  --text-primary: #ffffff;
+  --text-secondary: #e4e4e7;
+  --text-muted: #a1a1aa;
+  --border-color: #333333;
+  --shadow-light: rgba(0, 0, 0, 0.2);
+  --shadow-medium: rgba(0, 0, 0, 0.4);
+  --shadow-heavy: rgba(0, 0, 0, 0.6);
+  --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  --gradient-secondary: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+}
+
+/* Force dark theme on all elements */
+* {
+  color-scheme: dark;
+}
+
+html,
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  outline: none !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: #0a0a0a !important;
+  background: #0a0a0a !important;
+  color: #ffffff !important;
+  line-height: 1.6;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  width: 100% !important;
+  min-height: 100vh !important;
+  height: 100% !important;
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box !important;
+}
+
+/* Force all elements to have dark backgrounds and light text */
+* {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  margin: 0;
+  padding: 0;
+  border: none !important;
+  box-sizing: border-box;
+}
+
+/* Remove any default margins and borders */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, section, article, header, nav, main, footer {
+  margin: 0 !important;
+  padding: 0;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+/* Ensure all elements inherit dark colors */
+body * {
+  color: inherit;
+}
+
+
+
+a {
+  color: var(--accent-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--accent-secondary);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Scrollbar Styling - Hide horizontal, style vertical */
+::-webkit-scrollbar {
+  width: 0px; /* Hide vertical scrollbar */
+  height: 0px; /* Hide horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-primary);
+  border-radius: 3px;
+  opacity: 0.7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-secondary);
+  opacity: 1;
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--primary-bg);
+}
+
+/* Firefox scrollbar */
+html {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+/* Selection styling */
+::selection {
+  background-color: var(--accent-primary);
+  color: white;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}

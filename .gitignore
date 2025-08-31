@@ -31,6 +31,10 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
+.env.development.local
+.env.test.local
+.env.production.local
 
 # vercel
 .vercel
@@ -38,3 +42,55 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+lerna-debug.log*
+.pnpm-debug.log*
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+conversations.db
+user_data.db
+
+# Backup files
+*.backup
+*.bak
+
+# Temporary folders
+tmp/
+temp/
+
+# Cache directories
+.cache
+.parcel-cache
+.eslintcache
+.stylelintcache
+
+# Personal notes
+TODO.md
+NOTES.md
+*.notes
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
