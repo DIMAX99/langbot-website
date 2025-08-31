@@ -139,16 +139,6 @@ langbot-website/
    - AI provides natural responses with corrections
    - Voice output with speed controls (+ / - buttons)
 
-### 3. **Track Progress**
-   - All conversations are saved automatically
-   - Review previous sessions in conversation history
-   - AI adapts to your learning level over time
-
-### 4. **Interactive Features**
-   - 3D avatar follows your mouse cursor
-   - Responsive design works on all devices
-   - Real-time typing indicators and smooth animations
-
 ## 🔧 Development
 
 ### Available Scripts
